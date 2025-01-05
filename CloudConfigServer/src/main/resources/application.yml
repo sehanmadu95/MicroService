@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: CloudConfigServer
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/sehanmadu95/ApplicationsConfig
+          username: sehanmadu95
+          password: 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
+
+
+server:
+  port: 9090
+

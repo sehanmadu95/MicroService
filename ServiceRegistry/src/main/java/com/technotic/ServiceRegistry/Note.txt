@@ -1,0 +1,8 @@
+<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
+</dependency>
+
+Config @EnableEurekaServer
+
+port 8761 : then it will auto registers clients in server
